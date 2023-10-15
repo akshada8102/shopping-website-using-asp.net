@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="VivBeads.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+         .color{
+             background-color:#EBB7CD;
+             align-content:center;
+         }
+         .family{
+              font-family: Arial;
+            font-size: x-large;
+         }
+         
+         .sizeee {
+            font-family: Arial;
+            font-size: x-large;
+            font-weight: bold;
+
+        }
+                .floating {
+ position: fixed;
+ width: 60px;
+ height: 60px;
+ bottom: 40px;
+ right: 40px;
+ background-color: #25d366;
+ color: #fff;
+ border-radius: 50px;
+ text-align: center;
+ font-size: 30px;
+ box-shadow: 2px 2px 3px #999;
+ z-index: 100;
+}
+
+         
+         .auto-style1 {
+            font-family: Arial;
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+         
+         .wssp {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 30px;
+            right: 33px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+         
+         .insta {
+              position: fixed;
+            width: 64px;
+            height: 62px;
+            bottom: 27px;
+            right: 113px;
+           
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+          
+            z-index: 100;
+        }
+
+         
+         
+
+         
+         </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+        <div >
+           
+            <br />
+            <asp:Panel ID="Panel1" runat="server" BackColor="#EBB7CD" HorizontalAlign="Center">
+                 <asp:Image ID="Image1" runat="server" ImageUrl="~/images/VivBeads.jpeg" Width="980px" Height="240px" align="center"/>
+            </asp:Panel>
+             <asp:Panel ID="Panel3" runat="server" BackColor="#EBB7CD" HorizontalAlign="Center">
+                 <br />
+                 <br />
+            
+            </asp:Panel>
+            <asp:Panel ID="Panel2" runat="server" BackColor="#EBB7CD" HorizontalAlign="Center" Height="84px" CssClass="family">
+                   <asp:ImageButton  ID="Home1" runat="server" BackColor="Transparent" ImageUrl="~/images/Home.png" BorderColor="Transparent"   CssClass="family"  height="52px" Width="60px" OnClick="Home_Click"/>
+           &nbsp;&nbsp;   &nbsp;&nbsp;  <asp:ImageButton ID="Cart" runat="server"  BorderColor="Transparent"  Text="Cart" ImageUrl="~/images/cart.png"  CssClass="family"  height="52px" Width="60px" OnClick="Cart_Click"/>
+                   <strong>
+                &nbsp;&nbsp;  &nbsp;&nbsp;    <asp:Button ID="Button5" runat="server" BackColor="Transparent" BorderColor="Transparent"  CssClass="auto-style1"  Text="Log In" OnClick="Button5_Click" />
+                  &nbsp;&nbsp;  &nbsp;&nbsp;   <asp:Button ID="Button6" runat="server" BackColor="Transparent" BorderColor="Transparent"  CssClass="auto-style1" Text="Log Out" OnClick="Button6_Click1" />
+                   </strong>
+           <a aria-label="Chat on WhatsApp" href="https://wa.me/message/RBAEA5DGUXJ5J1"> <img alt="Chat on WhatsApp" src="images/wssup.png" class="wssp"  height="50px" /></a>
+                <a aria-label="Instagram" href="https://instagram.com/viv_beads?igshid=YmMyMTA2M2Y="> <img alt="Visit on Instagram" src="images/instagrammlogo.png" class="insta" /></a>
+            </asp:Panel>
+         <br />
+         <br />
+             </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+      
+    </form>
+</body>
+</html>

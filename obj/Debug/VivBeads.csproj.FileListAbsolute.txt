@@ -1,0 +1,9 @@
+C:\Users\sabal\source\repos\VivBeads\VivBeads\bin\VivBeads.dll.config
+C:\Users\sabal\source\repos\VivBeads\VivBeads\bin\VivBeads.dll
+C:\Users\sabal\source\repos\VivBeads\VivBeads\bin\VivBeads.pdb
+C:\Users\sabal\source\repos\VivBeads\VivBeads\obj\Debug\VivBeads.csproj.AssemblyReference.cache
+C:\Users\sabal\source\repos\VivBeads\VivBeads\obj\Debug\VivBeads.csproj.CoreCompileInputs.cache
+C:\Users\sabal\source\repos\VivBeads\VivBeads\obj\Debug\VivBeads.dll
+C:\Users\sabal\source\repos\VivBeads\VivBeads\obj\Debug\VivBeads.pdb
+C:\Users\sabal\source\repos\VivBeads\VivBeads\bin\itextsharp.dll
+C:\Users\sabal\source\repos\VivBeads\VivBeads\obj\Debug\VivBeads.csproj.CopyComplete
